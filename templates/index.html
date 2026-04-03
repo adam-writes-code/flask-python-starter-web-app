@@ -1,38 +1,12 @@
 {% extends "base.html" %}
 
 {% block main %}
-<p>Some content on the Home page</p>
+<h1>Tasks</h1>
+<ul>
+    {% for task in tasks %}
+    <li>{{ task.title }} created on {{ task.date }}</li>
+    {% endfor %}
+</ul>
 {% endblock%}
 
 
-
-<!--<html>-->
-
-<!--</html>-->
-
-
-
-
-
-<!--<html>-->
-<!--  <head>-->
-<!--    <title>Task Manager</title>-->
-<!--  </head>-->
-<!--  <body>-->
-<!--  <h1>{{ current_title }}</h1>>-->
-<!--    <p>Some Content</p>>-->
-<!--  </body>-->
-<!--</html>>-->
-
-
-
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <title>Title</title>-->
-<!--</head>-->
-<!--<body>-->
-
-<!--</body>-->
-<!--</html>-->
