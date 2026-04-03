@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac83bf36-eff1-458b-b2c1-90cdfd74577b" name="Changes" comment="First sync">
-      <change afterPath="$PROJECT_DIR$/templates/About.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    <list default="true" id="ac83bf36-eff1-458b-b2c1-90cdfd74577b" name="Changes" comment="Templates functionality has been added with base.html">
+      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/About.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -72,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775249021158</updated>
-      <workItem from="1775249022369" duration="1557000" />
+      <workItem from="1775249022369" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="First sync">
       <option name="closed" value="true" />
@@ -82,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775249303210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Templates functionality has been added with base.html">
+      <option name="closed" value="true" />
+      <created>1775250767698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775250767698</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,9 +101,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="First sync" />
+    <MESSAGE value="Templates functionality has been added with base.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Templates functionality has been added with base.html" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_python_starter_web_app$app.coverage" NAME="app Coverage Results" MODIFIED="1775250163065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_python_starter_web_app$app.coverage" NAME="app Coverage Results" MODIFIED="1775252029334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
