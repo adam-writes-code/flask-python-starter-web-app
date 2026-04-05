@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac83bf36-eff1-458b-b2c1-90cdfd74577b" name="Changes" comment="Templates have been replaced. New design was introduced. New flash messages">
+    <list default="true" id="ac83bf36-eff1-458b-b2c1-90cdfd74577b" name="Changes" comment="Edit task functionality was added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775249021158</updated>
       <workItem from="1775249022369" duration="5395000" />
-      <workItem from="1775255739492" duration="8181000" />
+      <workItem from="1775255739492" duration="8830000" />
     </task>
     <task id="LOCAL-00001" summary="First sync">
       <option name="closed" value="true" />
@@ -117,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775416479507</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edit task functionality was added">
+      <option name="closed" value="true" />
+      <created>1775418048275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775418048275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,10 +138,11 @@
     <MESSAGE value="Refactoring a Forms has been added. New requirements.txt file" />
     <MESSAGE value="DataBase functionality has been added. Home Page is now Tasks, About is now Add" />
     <MESSAGE value="Templates have been replaced. New design was introduced. New flash messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Templates have been replaced. New design was introduced. New flash messages" />
+    <MESSAGE value="Edit task functionality was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit task functionality was added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_python_starter_web_app$routes.coverage" NAME="routes Coverage Results" MODIFIED="1775255748391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask_python_starter_web_app$app.coverage" NAME="app Coverage Results" MODIFIED="1775417581072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_python_starter_web_app$app.coverage" NAME="app Coverage Results" MODIFIED="1775418439460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
