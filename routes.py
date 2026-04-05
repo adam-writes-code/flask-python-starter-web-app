@@ -1,3 +1,5 @@
+from pickle import GET
+
 from app import app, db
 from flask import render_template, redirect, url_for, flash, get_flashed_messages
 from models import Task
@@ -22,3 +24,21 @@ def add():
         print('Submitted title', form.title.data)
         return redirect(url_for('index'))
     return render_template('add.html', form=form)
+
+@app.route('/edit/<int:task_id>', methods = ['GET', 'POST'])
+def edit(task_id):
+    task = Task.query.get(task_id)
+    form = forms.AddTaskForm()
+
+    if task:
+        if form.validate_on_submit():
+            task.title = form.title.data
+            task.date = datetime.utcnow()
+            db.session.commit()
+            flash('Task updated successfully')
+            return redirect(url_for('index'))
+        
+        form.title.data = task.title
+        return render_template('edit.html', form=form, task_id = task_id)
+
+    return redirect(url_for('index'))
